@@ -11,7 +11,7 @@ Este projeto em Streamlit permite que você desenhe um dígito (0–9) diretamen
 
 ## 📸 Interface
 
-![Exemplo da Interface](img/img01.png)
+![Exemplo da Interface](Digitos/img/img01.png)
 
 ## Sobre o Modelo
 O modelo de rede neural convolucional (CNN) utilizado neste projeto foi desenvolvido, treinado e ajustado por mim especificamente para este aplicativo. Ele foi treinado com o dataset MNIST usando PyTorch, com foco em precisão e simplicidade para execução local.
