@@ -1,5 +1,4 @@
-import os
-st.write("Arquivos no diretório:", os.listdir())
+
 
 import streamlit as st
 from streamlit_drawable_canvas import st_canvas
@@ -12,6 +11,8 @@ import torch.nn as nn
 import torch
 st.set_page_config(layout="centered", page_title="Desenho de Dígitos MNIST")
 
+import os
+st.write("Arquivos no diretório:", os.listdir())
 
 class CNN(nn.Module):
     def __init__(self):
