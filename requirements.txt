@@ -6,3 +6,4 @@ streamlit-drawable-canvas
 numpy
 opencv-python
 Pillow
+cv2
