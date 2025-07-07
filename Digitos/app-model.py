@@ -11,9 +11,6 @@ import torch.nn as nn
 import torch
 st.set_page_config(layout="centered", page_title="Desenho de Dígitos MNIST")
 
-import os
-st.write("Arquivos no diretório:", os.listdir())
-
 class CNN(nn.Module):
     def __init__(self):
         super(CNN, self).__init__()
@@ -40,7 +37,7 @@ def load_model():
     try:
         model = CNN()
 
-        model_dict = torch.load("modelo_mnist.pth", map_location=torch.device("cpu"))
+        model_dict = torch.load("Digitos/modelo_mnist.pth", map_location=torch.device("cpu"))
 
         model.load_state_dict(model_dict)
         model.eval()
