@@ -1,0 +1,8 @@
+torch
+torchvision
+matplotlib
+streamlit
+streamlit-drawable-canvas
+numpy
+opencv-python
+Pillow
