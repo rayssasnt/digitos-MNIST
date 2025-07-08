@@ -1,5 +1,7 @@
 # 🧠🔢 Classificação de Dígitos Manuscritos com CNN (MNIST)
 
+link para o projeto : https://digitos-mnist-rayssa-snt.streamlit.app/
+
 Este projeto em Streamlit permite que você desenhe um dígito (0–9) diretamente na tela e o classifique usando uma rede neural convolucional (CNN) treinada com o dataset MNIST.
 
 ## 💡 Funcionalidades
